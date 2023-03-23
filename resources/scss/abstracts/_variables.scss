@@ -1,0 +1,22 @@
+* {
+    --border-radius : 10px;
+    --radius-panel: 10px;
+    --input-radius : 5px;
+    --radius-button: 99px;
+    --radius-input: 10px;
+    --effect: all ease-out 0.10s;
+    --shadow: rgba(255, 255, 255, 0.02) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.04) 0px 30px 80px -20px, rgba(50, 55, 72, 0.05) 0px 30px 60px -30px;
+
+    // responsive
+    --sm : 500px;
+    --md : 720px;
+    --l : 960px;
+    --xl : 1200px;
+    --full: 1400px;
+
+    //margins
+    --margin-xs: 0.9rem;
+    --margin-s: 1.8rem;
+    --margin-m: 3.6rem;
+    --margin-l: 7.2rem;
+}

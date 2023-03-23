@@ -1,0 +1,35 @@
+.grid {
+    margin-bottom: 0;
+
+    @media(min-width: 1200px) {
+        margin-bottom: var(--margin-m);
+    }
+
+    .grid--column {
+        display: flex;
+        margin-bottom: var(--margin-m);
+
+        @media(min-width: 1200px) {
+            margin-bottom: 0;
+        }
+    }
+
+
+    &.grid--column-gap-2 {
+        @media(min-width: 1200px) {
+            .grid--column {
+                padding: 0 1.25rem;
+
+                &:first-of-type {
+                    padding-left: 0;
+                }
+
+                &:last-of-type {
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+}
+
+

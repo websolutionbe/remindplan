@@ -1,0 +1,40 @@
+.contact-field {
+    display: flex;
+
+    div.profile {
+        margin-right: var(--margin-s);
+        width: 6rem;
+        height: 6rem;
+        border: none;
+        pointer-events: none;
+    }
+
+    div.info {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        h2 {
+            line-height: 1;
+            font-size: 2.1rem;
+        }
+
+        div.contact-info {
+            display: flex;
+            margin-top: var(--margin-xs);
+
+            span {
+                font-size: 1.2rem;
+                color: var(--color-text-200);
+                display: flex;
+                margin-right: var(--margin-s);
+
+                svg {
+                    width: 1.4rem;
+                    height: 1.4rem;
+                    margin-right: 0.4rem;
+                }
+            }
+        }
+    }
+}

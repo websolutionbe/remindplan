@@ -1,0 +1,26 @@
+#hamburger {
+    height: 20px;
+    width: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    cursor: pointer;
+    transition: var(--effect);
+
+    span {
+        height: 3px;
+        width: 100%;
+        transition: var(--effect);
+        background-color: var(--color-text);
+    }
+
+    &:hover {
+        span {
+            background-color: var(--color-text-200);
+            &:nth-of-type(2) {
+                width: 60%;
+                margin-left: 40%;
+            }
+        }
+    }
+}

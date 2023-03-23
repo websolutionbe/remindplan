@@ -1,0 +1,128 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--color-background);
+}
+
+#app {
+    display: flex;
+}
+
+.content {
+    width: 100%;
+}
+
+.container {
+    margin: auto;
+    max-width: var(--full);
+
+    &--xl {
+        max-width: 160rem;
+    }
+
+    &--s {
+        max-width: 82rem;
+    }
+}
+
+.shadow {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.shadow-darker {
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 20px 25px -5px, rgba(0, 0, 0, 0.1) 0px 6px 10px -3px;
+}
+
+.money {
+    i {
+        font-style: normal;
+    }
+}
+
+div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+    position: initial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+
+    div.bullet {
+        transition: var(--effect);
+        width: 1rem;
+        height: 1rem;
+        background-color: rgba(154, 154, 154, 0.66);
+        margin: 0.5rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        opacity: 1;
+
+        &:hover, &.swiper-pagination-bullet-active {
+            background-color: var(--color-text-200);
+            transform: scale(1.5);
+        }
+    }
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid var(--color-lighter-grey);
+}
+.shadow {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.shadow-darker {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.container {
+    padding: 0 2.5rem;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+main {
+    &.fixed {
+        padding-top: 11rem;
+    }
+}
+
+// fluid
+.fluid-1 {
+    width: 100%;
+}
+
+.fluid-2 {
+    width: 100%;
+    @media(min-width: var(--l)) {
+        width: calc(50% - 1rem);
+    }
+}
+
+.fluid-3 {
+    width: 100%;
+    @media(min-width: var(--xl)) {
+        width: calc(75% - 1rem);
+    }
+}
+
+.fluid-4 {
+    width: 100%;
+    @media(min-width: var(--l)) {
+        width: calc(50% - 1rem);
+    }
+
+    @media(min-width: var(--xl)) {
+        width: calc(25% - 1.5rem);
+    }
+}
+

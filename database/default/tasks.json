@@ -1,0 +1,103 @@
+[
+    {
+        "period" : "day",
+        "tasks" : [
+            {
+                "title_nl" : "Vaatwasser vullen & legen"
+            },
+            {
+                "title_nl" : "Keuken opruimen"
+            },
+            {
+                "title_nl" : "Koken"
+            },
+            {
+                "title_nl" : "Woonkamer opruimen"
+            }
+        ]
+    },
+    {
+        "period" : "week",
+        "tasks" : [
+            {
+                "title_nl" : "Stofzuigen"
+            },
+            {
+                "title_nl" : "Wasjes insteken & opplooien"
+            },
+            {
+                "title_nl" : "Badkamer & WC kuisen"
+            },
+            {
+                "title_nl" : "Vuilzakken"
+            },
+            {
+                "title_nl" : "Bureau"
+            },
+            {
+                "title_nl" : "Koelkast opruimen"
+            },
+            {
+                "title_nl" : "Stof afdoen"
+            }
+        ]
+    },
+    {
+        "period" : "month",
+        "tasks" : [
+            {
+                "title_nl" : "Auto wassen"
+            },
+            {
+                "title_nl" : "Lakens verversen"
+            },
+            {
+                "title_nl" : "Plantjes verpotten"
+            },
+            {
+                "title_nl" : "Microgolf kuisen"
+            },
+            {
+                "title_nl" : "Koffiezet ontkalken"
+            },
+            {
+                "title_nl" : "Koelkast kuisen"
+            },
+            {
+                "title_nl" : "Matjes wassen"
+            },
+            {
+                "title_nl" : "Strijken"
+            }
+        ]
+    },
+    {
+        "period" : "quarter",
+        "tasks" : [
+            {
+                "title_nl" : "Wasmachine kuisen"
+            },
+            {
+                "title_nl" : "Oven kuisen"
+            },
+            {
+                "title_nl" : "Vaatwasser kuisen / ontkalken"
+            },
+            {
+                "title_nl" : "Ruiten kuisen"
+            },
+            {
+                "title_nl" : "Kasten uitkuisen"
+            },
+            {
+                "title_nl" : "Zetelhoezen wassen"
+            },
+            {
+                "title_nl" : "Klinken & schakelaars kuisen"
+            },
+            {
+                "title_nl" : "Vuilbakken uitkuisen"
+            }
+        ]
+    }
+]

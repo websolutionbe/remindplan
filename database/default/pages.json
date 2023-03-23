@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "key": "dashboard",
+        "title_nl": "Dashboard",
+        "slug_nl": "overzicht",
+        "visible": 1,
+        "created_at": "2022-11-09 14:17:26",
+        "updated_at": "2022-11-09 14:17:26",
+        "seo": {
+            "id": 1,
+            "page_id": 1,
+            "parent_id": null,
+            "parent_type": "page",
+            "title_nl": "Dashboard",
+            "description_nl": "",
+            "no_index": 0,
+            "created_at": "2022-11-09 14:17:26",
+            "updated_at": "2022-11-09 14:17:26"
+        }
+    },
+    {
+        "id": 2,
+        "key": "login",
+        "title_nl": "Login",
+        "slug_nl": "login",
+        "visible": 1,
+        "created_at": "2022-11-09 14:17:26",
+        "updated_at": "2022-11-09 14:17:26",
+        "seo": {
+            "id": 2,
+            "page_id": 2,
+            "parent_id": null,
+            "parent_type": "page",
+            "title_nl": "Login",
+            "description_nl": "",
+            "no_index": 0,
+            "created_at": "2022-11-09 14:17:26",
+            "updated_at": "2022-11-09 14:17:26"
+        }
+    },
+    {
+        "id": 3,
+        "key": "category.today",
+        "title_nl": "Vandaag",
+        "slug_nl": "vandaag",
+        "visible": 1,
+        "created_at": "2022-11-09 14:17:26",
+        "updated_at": "2022-11-09 14:17:26",
+        "seo": {
+            "id": 3,
+            "page_id": 3,
+            "parent_id": null,
+            "parent_type": "page",
+            "title_nl": "Vandaag",
+            "description_nl": "",
+            "no_index": 0,
+            "created_at": "2022-11-09 14:17:26",
+            "updated_at": "2022-11-09 14:17:26"
+        }
+    },
+    {
+        "id": 4,
+        "key": "category.week",
+        "title_nl": "Deze Week",
+        "slug_nl": "week",
+        "visible": 1,
+        "created_at": "2022-11-09 14:17:26",
+        "updated_at": "2022-11-09 14:17:26",
+        "seo": {
+            "id": 4,
+            "page_id": 4,
+            "parent_id": null,
+            "parent_type": "page",
+            "title_nl": "Deze week",
+            "description_nl": "",
+            "no_index": 0,
+            "created_at": "2022-11-09 14:17:26",
+            "updated_at": "2022-11-09 14:17:26"
+        }
+    },
+    {
+        "id": 5,
+        "key": "category.month",
+        "title_nl": "Maand",
+        "slug_nl": "maand",
+        "visible": 1,
+        "created_at": "2022-11-09 14:17:26",
+        "updated_at": "2022-11-09 14:17:26",
+        "seo": {
+            "id": 5,
+            "page_id": 5,
+            "parent_id": null,
+            "parent_type": "page",
+            "title_nl": "Deze maand",
+            "description_nl": "",
+            "no_index": 0,
+            "created_at": "2022-11-09 14:17:26",
+            "updated_at": "2022-11-09 14:17:26"
+        }
+    },
+    {
+        "id": 6,
+        "key": "category.quarter",
+        "title_nl": "Kwartaal",
+        "slug_nl": "kwartaal",
+        "visible": 1,
+        "created_at": "2022-11-09 14:17:26",
+        "updated_at": "2022-11-09 14:17:26",
+        "seo": {
+            "id": 6,
+            "page_id": 6,
+            "parent_id": null,
+            "parent_type": "page",
+            "title_nl": "Dit kwartaal",
+            "description_nl": "",
+            "no_index": 0,
+            "created_at": "2022-11-09 14:17:26",
+            "updated_at": "2022-11-09 14:17:26"
+        }
+    },
+    {
+        "id": 7,
+        "key": "group",
+        "title_nl": "Groep",
+        "slug_nl": "groep",
+        "visible": 1,
+        "created_at": "2022-11-09 14:17:26",
+        "updated_at": "2022-11-09 14:17:26",
+        "seo": {
+            "id": 7,
+            "page_id": 7,
+            "parent_id": null,
+            "parent_type": "page",
+            "title_nl": "Mijn groep",
+            "description_nl": "",
+            "no_index": 0,
+            "created_at": "2022-11-09 14:17:26",
+            "updated_at": "2022-11-09 14:17:26"
+        }
+    },
+    {
+        "id": 8,
+        "key": "settings",
+        "title_nl": "Instellingen",
+        "slug_nl": "instellingen",
+        "visible": 1,
+        "created_at": "2022-11-09 14:17:26",
+        "updated_at": "2022-11-09 14:17:26",
+        "seo": {
+            "id": 8,
+            "page_id": 8,
+            "parent_id": null,
+            "parent_type": "page",
+            "title_nl": "Instellingen",
+            "description_nl": "",
+            "no_index": 0,
+            "created_at": "2022-11-09 14:17:26",
+            "updated_at": "2022-11-09 14:17:26"
+        }
+    },
+    {
+        "id": 9,
+        "key": "settings.categories",
+        "title_nl": "Instellingen voor categorieën",
+        "slug_nl": "categorieen",
+        "visible": 1,
+        "created_at": "2022-11-09 14:17:26",
+        "updated_at": "2022-11-09 14:17:26",
+        "seo": {
+            "id": 9,
+            "page_id": 9,
+            "parent_id": null,
+            "parent_type": "page",
+            "title_nl": "Instellingen voor categorieën",
+            "description_nl": "",
+            "no_index": 0,
+            "created_at": "2022-11-09 14:17:26",
+            "updated_at": "2022-11-09 14:17:26"
+        }
+    },
+    {
+        "id": 10,
+        "key": "settings.category",
+        "title_nl": "Instellingen voor categorie",
+        "slug_nl": "categorie",
+        "visible": 1,
+        "created_at": "2022-11-09 14:17:26",
+        "updated_at": "2022-11-09 14:17:26",
+        "seo": {
+            "id": 10,
+            "page_id": 10,
+            "parent_id": null,
+            "parent_type": "page",
+            "title_nl": "Instellingen voor categorie",
+            "description_nl": "",
+            "no_index": 0,
+            "created_at": "2022-11-09 14:17:26",
+            "updated_at": "2022-11-09 14:17:26"
+        }
+    }
+]

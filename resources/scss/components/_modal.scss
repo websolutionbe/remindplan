@@ -1,0 +1,109 @@
+div.modal-wrapper {
+    overflow-y: scroll;
+    padding: 2.5rem 0;
+    @media(min-width: 400px) {
+        padding: 2.5rem;
+    }
+}
+div.modal {
+    background-color: #fff;
+
+    @media(min-width: 400px) {
+        max-height: none;
+    }
+
+    div.modal-header {
+        background-color: var(--color-text);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            margin-top: 0;
+            color: #fff;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        > svg.logo-icon {
+            width: 4rem;
+            height: 4rem;
+            margin-bottom: 1.25rem;
+        }
+    }
+
+    .modal-main {
+        div.grid--column-6-l {
+            @media(min-width: 400px) {
+                width: 50%;
+            }
+
+            &:nth-of-type(odd){
+                padding-right: 0.75rem;
+            }
+
+            &:nth-of-type(even){
+                padding-left: 0.75rem;
+            }
+        }
+
+        textarea {
+            min-height: 8rem;
+        }
+
+        div.contact_type {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 2.5rem;
+            div.radio-button {
+                width: 100%;
+                margin-bottom: 1.25rem;
+
+                @media(min-width: 520px) {
+                    width: 50%;
+
+                    &:nth-of-type(odd){
+                        padding-right: 0.75rem;
+                    }
+
+                    &:nth-of-type(even){
+                        padding-left: 0.75rem;
+                    }
+                }
+            }
+            label {
+                font-size: 1.4rem;
+                cursor: pointer;
+            }
+
+            svg {
+                cursor: pointer;
+            }
+        }
+    }
+
+    div.modal-footer {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--color-grey-200);
+
+
+        @media(min-width: 400px){
+            flex-direction: row;
+        }
+
+        button.btn--theme.btn--color-primary {
+            display: flex;
+
+            @media(min-width: 400px) {
+                margin-left: var(--margin-s);
+                width: auto;
+                min-width: 17.7rem;
+                margin-top: auto;
+            }
+        }
+    }
+}

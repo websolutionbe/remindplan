@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.199 9.463" fill="currentColor">
+    <g data-name="Group 65" transform="translate(0 0)">
+        <g data-name="Group 64" transform="translate(0 0)">
+            <path data-name="angle-small-right (4)"
+                  d="M13.112,7.67,10.219,4.777A.946.946,0,1,0,8.881,6.116l2.893,2.892a.315.315,0,0,1,0,.447L8.881,12.347a.946.946,0,0,0,1.338,1.339l2.893-2.893a2.211,2.211,0,0,0,0-3.123Z"
+                  transform="translate(2.441 -4.5)"/>
+            <path data-name="angle-small-right (4)"
+                  d="M4.508,3.17,1.615.277A.946.946,0,0,0,.277,1.616L3.17,4.508a.315.315,0,0,1,0,.447L.277,7.847A.946.946,0,0,0,1.615,9.186L4.508,6.293a2.211,2.211,0,0,0,0-3.123Z"
+                  transform="translate(5.154 9.463) rotate(180)"/>
+        </g>
+    </g>
+</svg>

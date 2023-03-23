@@ -1,0 +1,184 @@
+{
+  "resources/images/icon.png": {
+    "file": "assets/icon.efb223c0.png",
+    "src": "resources/images/icon.png"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app.0ade2b4a.js",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/components/pages/Category.vue",
+      "resources/js/components/pages/CategoryConfiguration.vue",
+      "resources/js/components/pages/CategorySettings.vue",
+      "resources/js/components/pages/Dashboard.vue",
+      "resources/js/components/pages/Group.vue",
+      "resources/js/components/pages/Login.vue",
+      "resources/js/components/pages/Settings.vue"
+    ],
+    "css": [
+      "assets/app.fb947a1c.css"
+    ]
+  },
+  "resources/js/components/pages/Category.vue": {
+    "file": "assets/Category.f2517924.js",
+    "src": "resources/js/components/pages/Category.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_Seo.6118f660.js",
+      "_DonutChart.5613712a.js"
+    ],
+    "css": [
+      "assets/Category.70e21abc.css"
+    ]
+  },
+  "_Seo.6118f660.js": {
+    "file": "assets/Seo.6118f660.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/Seo.a8a9235e.css"
+    ]
+  },
+  "_DonutChart.5613712a.js": {
+    "file": "assets/DonutChart.5613712a.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/DonutChart.fd1f89eb.css"
+    ]
+  },
+  "resources/js/components/pages/CategoryConfiguration.vue": {
+    "file": "assets/CategoryConfiguration.6e7c258e.js",
+    "src": "resources/js/components/pages/CategoryConfiguration.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_Seo.6118f660.js",
+      "_DonutChart.5613712a.js",
+      "_Button.ccd4448e.js"
+    ],
+    "css": [
+      "assets/CategoryConfiguration.84bd8e41.css"
+    ]
+  },
+  "_Button.ccd4448e.js": {
+    "file": "assets/Button.ccd4448e.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/components/pages/CategorySettings.vue": {
+    "file": "assets/CategorySettings.d702de9d.js",
+    "src": "resources/js/components/pages/CategorySettings.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_Seo.6118f660.js",
+      "_DonutChart.5613712a.js"
+    ],
+    "css": [
+      "assets/CategorySettings.6fa84f8f.css"
+    ]
+  },
+  "resources/js/components/pages/Dashboard.vue": {
+    "file": "assets/Dashboard.039157c9.js",
+    "src": "resources/js/components/pages/Dashboard.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_Seo.6118f660.js",
+      "_DonutChart.5613712a.js"
+    ],
+    "css": [
+      "assets/Dashboard.b672ea3c.css"
+    ]
+  },
+  "resources/js/components/pages/Group.vue": {
+    "file": "assets/Group.c18503f5.js",
+    "src": "resources/js/components/pages/Group.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_Seo.6118f660.js",
+      "_DonutChart.5613712a.js"
+    ],
+    "css": [
+      "assets/Group.6d83458d.css"
+    ]
+  },
+  "resources/js/components/pages/Login.vue": {
+    "file": "assets/Login.6974a9ef.js",
+    "src": "resources/js/components/pages/Login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_Seo.6118f660.js",
+      "_Button.ccd4448e.js"
+    ],
+    "css": [
+      "assets/Login.e4760341.css"
+    ]
+  },
+  "resources/js/components/pages/Settings.vue": {
+    "file": "assets/Settings.f0029cc8.js",
+    "src": "resources/js/components/pages/Settings.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_Seo.6118f660.js",
+      "_DonutChart.5613712a.js"
+    ],
+    "css": [
+      "assets/Settings.28f147a3.css"
+    ]
+  },
+  "resources/js/components/pages/Login.css": {
+    "file": "assets/Login.e4760341.css",
+    "src": "resources/js/components/pages/Login.css"
+  },
+  "resources/js/components/pages/Dashboard.css": {
+    "file": "assets/Dashboard.b672ea3c.css",
+    "src": "resources/js/components/pages/Dashboard.css"
+  },
+  "resources/js/components/pages/Settings.css": {
+    "file": "assets/Settings.28f147a3.css",
+    "src": "resources/js/components/pages/Settings.css"
+  },
+  "resources/js/components/pages/Group.css": {
+    "file": "assets/Group.6d83458d.css",
+    "src": "resources/js/components/pages/Group.css"
+  },
+  "resources/js/components/pages/CategoryConfiguration.css": {
+    "file": "assets/CategoryConfiguration.84bd8e41.css",
+    "src": "resources/js/components/pages/CategoryConfiguration.css"
+  },
+  "resources/js/components/pages/CategorySettings.css": {
+    "file": "assets/CategorySettings.6fa84f8f.css",
+    "src": "resources/js/components/pages/CategorySettings.css"
+  },
+  "Seo.css": {
+    "file": "assets/Seo.a8a9235e.css",
+    "src": "Seo.css"
+  },
+  "resources/js/components/pages/Category.css": {
+    "file": "assets/Category.70e21abc.css",
+    "src": "resources/js/components/pages/Category.css"
+  },
+  "DonutChart.css": {
+    "file": "assets/DonutChart.fd1f89eb.css",
+    "src": "DonutChart.css"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app.fb947a1c.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/scss/app.scss": {
+    "file": "assets/app.c920428b.css",
+    "src": "resources/scss/app.scss",
+    "isEntry": true
+  }
+}

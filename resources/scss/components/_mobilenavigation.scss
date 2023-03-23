@@ -1,0 +1,93 @@
+@keyframes slideInRight {
+    from {
+        right: -320px;
+        opacity: 0;
+    }
+
+    to {
+        right: 0;
+        opacity: 1;
+    }
+}
+
+.mobile-navigation {
+    animation-duration: 500ms;
+    animation-fill-mode: both;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    background-color: var(--color-primary);
+    animation-name: slideDown;
+
+    svg.close {
+        position: absolute;
+        right: 2.5rem;
+        top: 2.5rem;
+        width: 2rem;
+        height: 2rem;
+        color: var(--color-text-200);
+        transition: var(--effect);
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.05);
+            color: var(--color-text);
+        }
+    }
+
+    a.home-logo-link {
+        display: block;
+        margin-top: 5rem;
+        margin-left: 2.5rem;
+
+        svg {
+            color: var(--color-text);
+            width: 20rem;
+            height: 4rem;
+        }
+    }
+    div.navigation {
+        margin: 20rem 2.5rem;
+        display: flex;
+        flex-direction: column;
+
+        a {
+            text-transform: capitalize;
+            display: inline-flex;
+            margin-bottom: 4rem;
+            width: max-content;
+            font-size: 2.4rem;
+            font-weight: 600;
+            background-color: transparent;
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1.4rem;
+            border-radius: 10rem;
+            transition: var(--effect);
+
+            &:hover, &.active {
+                color: var(--color-grey-200);
+            }
+        }
+    }
+
+    div.actions {
+        margin: 0 2.5rem;
+    }
+
+    @media(min-width: 720px){
+        width: 40rem;
+        right: 0;
+        left: auto;
+        animation-name: slideInRight;
+        box-shadow: var(--shadow);
+    }
+
+    @media(min-width: 960px) {
+        display: none;
+    }
+
+}

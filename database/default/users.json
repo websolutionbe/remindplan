@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "email" : "ian.vleeshouwers@hotmail.com",
+        "phone" : "+32472064784",
+        "first_name" : "Ian",
+        "last_name" : "Vleeshouwers",
+        "color": "blue",
+        "password": "Azerty123"
+    },
+    {
+        "id": "2",
+        "email" : "justinevdh@live.be",
+        "phone" : "+32 494 58 42 23",
+        "first_name" : "Justine",
+        "last_name" : "Van den Hende",
+        "color": "green",
+        "password": "Azerty123"
+    }
+]

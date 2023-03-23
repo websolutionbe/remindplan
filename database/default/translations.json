@@ -1,0 +1,110 @@
+[
+    {
+        "key": "app.login",
+        "value_nl": "Inloggen"
+    },
+    {
+        "key": "app.edit",
+        "value_nl": "Bewerken"
+    },
+    {
+        "key": "app.save-changes",
+        "value_nl": "Wijzigingen opslaan"
+    },
+    {
+        "key": "app.add",
+        "value_nl": "Toevoegen"
+    },
+    {
+        "key": "app.new-task",
+        "value_nl": "Nieuwe taak"
+    },
+    {
+        "key": "app.save",
+        "value_nl": "Opslaan"
+    },
+    {
+        "key": "app.cancel",
+        "value_nl": "Annuleren"
+    },
+    {
+        "key": "app.add-document",
+        "value_nl": "Document toevoegen"
+    },
+    {
+        "key": "app.task-updated",
+        "value_nl": "Taak succesvol geüpdatet!"
+    },
+    {
+        "key": "app.task-created",
+        "value_nl": "Taak succesvol aangemaakt!"
+    },
+    {
+        "key": "app.task-removed",
+        "value_nl": "Taak succesvol verwijderd!"
+    },
+    {
+        "key": "app.update-status",
+        "value_nl": "Status updaten"
+    },
+    {
+        "key": "app.status.in_progress",
+        "value_nl": "In verwerking"
+    },
+    {
+        "key": "app.status.confirmed",
+        "value_nl": "Bevestigd"
+    },
+    {
+        "key": "app.status.canceled",
+        "value_nl": "Geannuleerd"
+    },
+    {
+        "key": "app.status.removed",
+        "value_nl": "Deleted"
+    },
+    {
+        "key": "app.login.fields.email",
+        "value_nl": "E-mailadres"
+    },
+    {
+        "key": "app.login.fields.password",
+        "value_nl": "Wachtwoord"
+    },
+    {
+        "key": "app.errors.wrong-credentials",
+        "value_nl": "Wachtwoord of e-mailadres is onjuist"
+    },
+    {
+        "key": "app.errors.fields-required",
+        "value_nl": "Niet alle velden zijn correct ingevuld"
+    },
+    {
+        "key": "app.dashboard.title",
+        "value_nl": "Overzicht"
+    },
+    {
+        "key": "app.aside.logout",
+        "value_nl": "Afmelden"
+    },
+    {
+        "key": "app.nav.dashboard",
+        "value_nl": "Dashboard"
+    },
+    {
+        "key": "dashboard.title",
+        "value_nl": "Overzicht"
+    },
+    {
+        "key": "group.title",
+        "value_nl": "Mijn groep"
+    },
+    {
+        "key": "settings.title",
+        "value_nl": "Instellingen"
+    },
+    {
+        "key" : "settings.categories",
+        "value_nl": "Categorieën"
+    }
+]
