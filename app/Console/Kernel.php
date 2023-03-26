@@ -17,7 +17,7 @@ class Kernel extends ConsoleKernel
     {
         $schedule->command('daily')->dailyAt('07:00');
         //$schedule->command('check')->dailyAt('07:00');
-        $schedule->command('check')->everyMinute();
+        $schedule->command('check')->dailyAt('7:00');
     }
 
     /**

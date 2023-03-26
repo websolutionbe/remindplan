@@ -174,117 +174,117 @@
   "resources/js/components/ui/Button.vue?vue&type=style&index=0&lang.scss": [],
   "resources/js/app.js": [],
   "resources/js/components/pages/Category.vue?vue&type=style&index=0&lang.scss": [
-    "/build/assets/Category.5def9731.js",
+    "/build/assets/Category.c7b39b8a.js",
     "/build/assets/Category.70e21abc.css"
   ],
   "resources/js/components/pages/Category.vue": [
-    "/build/assets/Category.5def9731.js",
+    "/build/assets/Category.c7b39b8a.js",
     "/build/assets/Category.70e21abc.css"
   ],
   "resources/js/components/layout/Header.vue": [
-    "/build/assets/Seo.e21f1763.js",
+    "/build/assets/Seo.ee947069.js",
     "/build/assets/Seo.a8a9235e.css"
   ],
   "resources/js/components/layout/parts/Navigation.vue?vue&type=style&index=0&lang.scss": [
-    "/build/assets/Seo.e21f1763.js",
+    "/build/assets/Seo.ee947069.js",
     "/build/assets/Seo.a8a9235e.css"
   ],
   "resources/js/components/layout/parts/Navigation.vue": [
-    "/build/assets/Seo.e21f1763.js",
+    "/build/assets/Seo.ee947069.js",
     "/build/assets/Seo.a8a9235e.css"
   ],
   "resources/js/components/layout/Layout.vue": [
-    "/build/assets/Seo.e21f1763.js",
+    "/build/assets/Seo.ee947069.js",
     "/build/assets/Seo.a8a9235e.css"
   ],
   "resources/js/components/utils/Seo.vue": [
-    "/build/assets/Seo.e21f1763.js",
+    "/build/assets/Seo.ee947069.js",
     "/build/assets/Seo.a8a9235e.css"
   ],
   "node_modules/vue3-circle-progress/dist/circle-progress.css": [
-    "/build/assets/DonutChart.06cc7ffd.js",
+    "/build/assets/DonutChart.c5338b00.js",
     "/build/assets/DonutChart.fd1f89eb.css"
   ],
   "\u0000/Users/ianvleeshouwers/Documents/Projects/websolution/remindplan/node_modules/vue3-circle-progress/dist/circle-progress.umd.min.js?commonjs-module": [
-    "/build/assets/DonutChart.06cc7ffd.js",
+    "/build/assets/DonutChart.c5338b00.js",
     "/build/assets/DonutChart.fd1f89eb.css"
   ],
   "node_modules/vue3-circle-progress/dist/circle-progress.umd.min.js": [
-    "/build/assets/DonutChart.06cc7ffd.js",
+    "/build/assets/DonutChart.c5338b00.js",
     "/build/assets/DonutChart.fd1f89eb.css"
   ],
   "resources/js/components/global/charts/DonutChart.vue?vue&type=style&index=0&lang.scss": [
-    "/build/assets/DonutChart.06cc7ffd.js",
+    "/build/assets/DonutChart.c5338b00.js",
     "/build/assets/DonutChart.fd1f89eb.css"
   ],
   "resources/js/components/global/charts/DonutChart.vue": [
-    "/build/assets/DonutChart.06cc7ffd.js",
+    "/build/assets/DonutChart.c5338b00.js",
     "/build/assets/DonutChart.fd1f89eb.css"
   ],
   "resources/js/components/pages/CategoryConfiguration.vue?vue&type=style&index=0&lang.scss": [
-    "/build/assets/CategoryConfiguration.f7a12b13.js",
+    "/build/assets/CategoryConfiguration.018612ef.js",
     "/build/assets/CategoryConfiguration.84bd8e41.css"
   ],
   "resources/js/components/pages/CategoryConfiguration.vue": [
-    "/build/assets/CategoryConfiguration.f7a12b13.js",
+    "/build/assets/CategoryConfiguration.018612ef.js",
     "/build/assets/CategoryConfiguration.84bd8e41.css"
   ],
   "resources/js/components/ui/Input.vue": [
-    "/build/assets/Button.a663855d.js"
+    "/build/assets/Button.36b079df.js"
   ],
   "resources/js/components/ui/Button.vue": [
-    "/build/assets/Button.a663855d.js"
+    "/build/assets/Button.36b079df.js"
   ],
   "resources/js/components/pages/CategorySettings.vue?vue&type=style&index=0&lang.scss": [
-    "/build/assets/CategorySettings.638d4b79.js",
+    "/build/assets/CategorySettings.b004fde4.js",
     "/build/assets/CategorySettings.6fa84f8f.css"
   ],
   "resources/js/components/pages/CategorySettings.vue": [
-    "/build/assets/CategorySettings.638d4b79.js",
+    "/build/assets/CategorySettings.b004fde4.js",
     "/build/assets/CategorySettings.6fa84f8f.css"
   ],
   "resources/js/components/pages/Dashboard.vue?vue&type=style&index=0&lang.scss": [
-    "/build/assets/Dashboard.e529b73e.js",
+    "/build/assets/Dashboard.345311d2.js",
     "/build/assets/Dashboard.b672ea3c.css"
   ],
   "resources/js/components/pages/Dashboard.vue": [
-    "/build/assets/Dashboard.e529b73e.js",
+    "/build/assets/Dashboard.345311d2.js",
     "/build/assets/Dashboard.b672ea3c.css"
   ],
   "resources/js/components/pages/Group.vue?vue&type=style&index=0&lang.scss": [
-    "/build/assets/Group.6e2afc9e.js",
+    "/build/assets/Group.230be988.js",
     "/build/assets/Group.6d83458d.css"
   ],
   "resources/js/components/pages/Group.vue": [
-    "/build/assets/Group.6e2afc9e.js",
+    "/build/assets/Group.230be988.js",
     "/build/assets/Group.6d83458d.css"
   ],
   "resources/svg/auth/tooth.svg": [
-    "/build/assets/Login.7d0e5662.js",
+    "/build/assets/Login.8e6592ff.js",
     "/build/assets/Login.e4760341.css"
   ],
   "resources/svg/logo.svg": [
-    "/build/assets/Login.7d0e5662.js",
+    "/build/assets/Login.8e6592ff.js",
     "/build/assets/Login.e4760341.css"
   ],
   "resources/js/components/modules/login/LoginForm.vue?vue&type=style&index=0&scoped=39db9fbe&lang.scss": [
-    "/build/assets/Login.7d0e5662.js",
+    "/build/assets/Login.8e6592ff.js",
     "/build/assets/Login.e4760341.css"
   ],
   "resources/js/components/modules/login/LoginForm.vue": [
-    "/build/assets/Login.7d0e5662.js",
+    "/build/assets/Login.8e6592ff.js",
     "/build/assets/Login.e4760341.css"
   ],
   "resources/js/components/pages/Login.vue": [
-    "/build/assets/Login.7d0e5662.js",
+    "/build/assets/Login.8e6592ff.js",
     "/build/assets/Login.e4760341.css"
   ],
   "resources/js/components/pages/Settings.vue?vue&type=style&index=0&lang.scss": [
-    "/build/assets/Settings.7b6b6056.js",
+    "/build/assets/Settings.5bfdb5d9.js",
     "/build/assets/Settings.28f147a3.css"
   ],
   "resources/js/components/pages/Settings.vue": [
-    "/build/assets/Settings.7b6b6056.js",
+    "/build/assets/Settings.5bfdb5d9.js",
     "/build/assets/Settings.28f147a3.css"
   ]
 }
