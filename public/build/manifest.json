@@ -4,7 +4,7 @@
     "src": "resources/images/icon.png"
   },
   "resources/js/app.js": {
-    "file": "assets/app.0ade2b4a.js",
+    "file": "assets/app.ef00daf5.js",
     "src": "resources/js/app.js",
     "isEntry": true,
     "dynamicImports": [
@@ -21,20 +21,20 @@
     ]
   },
   "resources/js/components/pages/Category.vue": {
-    "file": "assets/Category.f2517924.js",
+    "file": "assets/Category.5def9731.js",
     "src": "resources/js/components/pages/Category.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_Seo.6118f660.js",
-      "_DonutChart.5613712a.js"
+      "_Seo.e21f1763.js",
+      "_DonutChart.06cc7ffd.js"
     ],
     "css": [
       "assets/Category.70e21abc.css"
     ]
   },
-  "_Seo.6118f660.js": {
-    "file": "assets/Seo.6118f660.js",
+  "_Seo.e21f1763.js": {
+    "file": "assets/Seo.e21f1763.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -42,8 +42,8 @@
       "assets/Seo.a8a9235e.css"
     ]
   },
-  "_DonutChart.5613712a.js": {
-    "file": "assets/DonutChart.5613712a.js",
+  "_DonutChart.06cc7ffd.js": {
+    "file": "assets/DonutChart.06cc7ffd.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -52,125 +52,125 @@
     ]
   },
   "resources/js/components/pages/CategoryConfiguration.vue": {
-    "file": "assets/CategoryConfiguration.6e7c258e.js",
+    "file": "assets/CategoryConfiguration.f7a12b13.js",
     "src": "resources/js/components/pages/CategoryConfiguration.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_Seo.6118f660.js",
-      "_DonutChart.5613712a.js",
-      "_Button.ccd4448e.js"
+      "_Seo.e21f1763.js",
+      "_DonutChart.06cc7ffd.js",
+      "_Button.a663855d.js"
     ],
     "css": [
       "assets/CategoryConfiguration.84bd8e41.css"
     ]
   },
-  "_Button.ccd4448e.js": {
-    "file": "assets/Button.ccd4448e.js",
+  "_Button.a663855d.js": {
+    "file": "assets/Button.a663855d.js",
     "imports": [
       "resources/js/app.js"
     ]
   },
   "resources/js/components/pages/CategorySettings.vue": {
-    "file": "assets/CategorySettings.d702de9d.js",
+    "file": "assets/CategorySettings.638d4b79.js",
     "src": "resources/js/components/pages/CategorySettings.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_Seo.6118f660.js",
-      "_DonutChart.5613712a.js"
+      "_Seo.e21f1763.js",
+      "_DonutChart.06cc7ffd.js"
     ],
     "css": [
       "assets/CategorySettings.6fa84f8f.css"
     ]
   },
   "resources/js/components/pages/Dashboard.vue": {
-    "file": "assets/Dashboard.039157c9.js",
+    "file": "assets/Dashboard.e529b73e.js",
     "src": "resources/js/components/pages/Dashboard.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_Seo.6118f660.js",
-      "_DonutChart.5613712a.js"
+      "_Seo.e21f1763.js",
+      "_DonutChart.06cc7ffd.js"
     ],
     "css": [
       "assets/Dashboard.b672ea3c.css"
     ]
   },
   "resources/js/components/pages/Group.vue": {
-    "file": "assets/Group.c18503f5.js",
+    "file": "assets/Group.6e2afc9e.js",
     "src": "resources/js/components/pages/Group.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_Seo.6118f660.js",
-      "_DonutChart.5613712a.js"
+      "_Seo.e21f1763.js",
+      "_DonutChart.06cc7ffd.js"
     ],
     "css": [
       "assets/Group.6d83458d.css"
     ]
   },
   "resources/js/components/pages/Login.vue": {
-    "file": "assets/Login.6974a9ef.js",
+    "file": "assets/Login.7d0e5662.js",
     "src": "resources/js/components/pages/Login.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_Seo.6118f660.js",
-      "_Button.ccd4448e.js"
+      "_Seo.e21f1763.js",
+      "_Button.a663855d.js"
     ],
     "css": [
       "assets/Login.e4760341.css"
     ]
   },
   "resources/js/components/pages/Settings.vue": {
-    "file": "assets/Settings.f0029cc8.js",
+    "file": "assets/Settings.7b6b6056.js",
     "src": "resources/js/components/pages/Settings.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_Seo.6118f660.js",
-      "_DonutChart.5613712a.js"
+      "_Seo.e21f1763.js",
+      "_DonutChart.06cc7ffd.js"
     ],
     "css": [
       "assets/Settings.28f147a3.css"
     ]
   },
-  "resources/js/components/pages/Login.css": {
-    "file": "assets/Login.e4760341.css",
-    "src": "resources/js/components/pages/Login.css"
-  },
-  "resources/js/components/pages/Dashboard.css": {
-    "file": "assets/Dashboard.b672ea3c.css",
-    "src": "resources/js/components/pages/Dashboard.css"
-  },
-  "resources/js/components/pages/Settings.css": {
-    "file": "assets/Settings.28f147a3.css",
-    "src": "resources/js/components/pages/Settings.css"
-  },
-  "resources/js/components/pages/Group.css": {
-    "file": "assets/Group.6d83458d.css",
-    "src": "resources/js/components/pages/Group.css"
+  "Seo.css": {
+    "file": "assets/Seo.a8a9235e.css",
+    "src": "Seo.css"
   },
   "resources/js/components/pages/CategoryConfiguration.css": {
     "file": "assets/CategoryConfiguration.84bd8e41.css",
     "src": "resources/js/components/pages/CategoryConfiguration.css"
   },
-  "resources/js/components/pages/CategorySettings.css": {
-    "file": "assets/CategorySettings.6fa84f8f.css",
-    "src": "resources/js/components/pages/CategorySettings.css"
-  },
-  "Seo.css": {
-    "file": "assets/Seo.a8a9235e.css",
-    "src": "Seo.css"
+  "resources/js/components/pages/Settings.css": {
+    "file": "assets/Settings.28f147a3.css",
+    "src": "resources/js/components/pages/Settings.css"
   },
   "resources/js/components/pages/Category.css": {
     "file": "assets/Category.70e21abc.css",
     "src": "resources/js/components/pages/Category.css"
   },
+  "resources/js/components/pages/CategorySettings.css": {
+    "file": "assets/CategorySettings.6fa84f8f.css",
+    "src": "resources/js/components/pages/CategorySettings.css"
+  },
   "DonutChart.css": {
     "file": "assets/DonutChart.fd1f89eb.css",
     "src": "DonutChart.css"
+  },
+  "resources/js/components/pages/Dashboard.css": {
+    "file": "assets/Dashboard.b672ea3c.css",
+    "src": "resources/js/components/pages/Dashboard.css"
+  },
+  "resources/js/components/pages/Group.css": {
+    "file": "assets/Group.6d83458d.css",
+    "src": "resources/js/components/pages/Group.css"
+  },
+  "resources/js/components/pages/Login.css": {
+    "file": "assets/Login.e4760341.css",
+    "src": "resources/js/components/pages/Login.css"
   },
   "resources/js/app.css": {
     "file": "assets/app.fb947a1c.css",
