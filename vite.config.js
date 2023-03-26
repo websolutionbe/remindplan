@@ -29,7 +29,7 @@ export default defineConfig({
             },
         }),
         VitePWA({
-            outDir: 'public/build',
+            outDir: 'public',
             filename: 'sw.js',
             // strategies: 'injectManifest',
             // injectRegister: 'inline',
@@ -38,8 +38,8 @@ export default defineConfig({
                 enabled: false
             },
             manifest: {
-                name: 'RemindPlan',
-                short_name: 'MyApp',
+                name: 'Remindplan',
+                short_name: 'Remindplan',
                 description: 'Get shit done',
                 theme_color: '#DCE2FD',
                 icons: [
