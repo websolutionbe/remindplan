@@ -30,6 +30,7 @@ export default defineConfig({
         }),
         VitePWA({
             outDir: 'public',
+            root: 'public',
             filename: 'sw.js',
             // strategies: 'injectManifest',
             // injectRegister: 'inline',

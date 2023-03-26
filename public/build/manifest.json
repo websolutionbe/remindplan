@@ -1,6 +1,6 @@
 {
   "resources/images/icon.png": {
-    "file": "assets/icon.efb223c0.png",
+    "file": "assets/icon.afced691.png",
     "src": "resources/images/icon.png"
   },
   "resources/js/app.js": {
@@ -136,22 +136,6 @@
       "assets/Settings.28f147a3.css"
     ]
   },
-  "resources/js/components/pages/Login.css": {
-    "file": "assets/Login.e4760341.css",
-    "src": "resources/js/components/pages/Login.css"
-  },
-  "resources/js/components/pages/Dashboard.css": {
-    "file": "assets/Dashboard.b672ea3c.css",
-    "src": "resources/js/components/pages/Dashboard.css"
-  },
-  "resources/js/components/pages/CategorySettings.css": {
-    "file": "assets/CategorySettings.6fa84f8f.css",
-    "src": "resources/js/components/pages/CategorySettings.css"
-  },
-  "resources/js/components/pages/Category.css": {
-    "file": "assets/Category.70e21abc.css",
-    "src": "resources/js/components/pages/Category.css"
-  },
   "Seo.css": {
     "file": "assets/Seo.a8a9235e.css",
     "src": "Seo.css"
@@ -160,9 +144,25 @@
     "file": "assets/Settings.28f147a3.css",
     "src": "resources/js/components/pages/Settings.css"
   },
+  "resources/js/components/pages/Login.css": {
+    "file": "assets/Login.e4760341.css",
+    "src": "resources/js/components/pages/Login.css"
+  },
   "resources/js/components/pages/CategoryConfiguration.css": {
     "file": "assets/CategoryConfiguration.84bd8e41.css",
     "src": "resources/js/components/pages/CategoryConfiguration.css"
+  },
+  "resources/js/components/pages/Category.css": {
+    "file": "assets/Category.70e21abc.css",
+    "src": "resources/js/components/pages/Category.css"
+  },
+  "resources/js/components/pages/CategorySettings.css": {
+    "file": "assets/CategorySettings.6fa84f8f.css",
+    "src": "resources/js/components/pages/CategorySettings.css"
+  },
+  "resources/js/components/pages/Dashboard.css": {
+    "file": "assets/Dashboard.b672ea3c.css",
+    "src": "resources/js/components/pages/Dashboard.css"
   },
   "resources/js/components/pages/Group.css": {
     "file": "assets/Group.6d83458d.css",
