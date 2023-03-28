@@ -33,6 +33,7 @@ export default defineConfig({
             root: 'public',
             filename: 'sw.js',
             publicPath: '',
+            start_url: "/kaas",
             // strategies: 'injectManifest',
             // injectRegister: 'inline',
             registerType: 'autoUpdate',

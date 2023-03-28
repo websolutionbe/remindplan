@@ -140,21 +140,17 @@
     "file": "assets/Settings.28f147a3.css",
     "src": "resources/js/components/pages/Settings.css"
   },
-  "resources/js/components/pages/Group.css": {
-    "file": "assets/Group.6d83458d.css",
-    "src": "resources/js/components/pages/Group.css"
+  "resources/js/components/pages/Category.css": {
+    "file": "assets/Category.70e21abc.css",
+    "src": "resources/js/components/pages/Category.css"
   },
   "DonutChart.css": {
     "file": "assets/DonutChart.fd1f89eb.css",
     "src": "DonutChart.css"
   },
-  "resources/js/components/pages/Dashboard.css": {
-    "file": "assets/Dashboard.b672ea3c.css",
-    "src": "resources/js/components/pages/Dashboard.css"
-  },
-  "resources/js/components/pages/Login.css": {
-    "file": "assets/Login.e4760341.css",
-    "src": "resources/js/components/pages/Login.css"
+  "resources/js/components/pages/Group.css": {
+    "file": "assets/Group.6d83458d.css",
+    "src": "resources/js/components/pages/Group.css"
   },
   "Seo.css": {
     "file": "assets/Seo.a8a9235e.css",
@@ -168,9 +164,13 @@
     "file": "assets/CategorySettings.6fa84f8f.css",
     "src": "resources/js/components/pages/CategorySettings.css"
   },
-  "resources/js/components/pages/Category.css": {
-    "file": "assets/Category.70e21abc.css",
-    "src": "resources/js/components/pages/Category.css"
+  "resources/js/components/pages/Login.css": {
+    "file": "assets/Login.e4760341.css",
+    "src": "resources/js/components/pages/Login.css"
+  },
+  "resources/js/components/pages/Dashboard.css": {
+    "file": "assets/Dashboard.b672ea3c.css",
+    "src": "resources/js/components/pages/Dashboard.css"
   },
   "resources/js/app.css": {
     "file": "assets/app.fb947a1c.css",
