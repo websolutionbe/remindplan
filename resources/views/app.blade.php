@@ -9,7 +9,7 @@
     <meta content="summary_large_image" name="twitter:card">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="manifest" href="/build/manifest.webmanifest">
+    <link rel="manifest" href="/manifest.webmanifest">
     <script src="/build/registerSW.js"></script>
     @if(config('client.google_fonts'))<link href="{{ config('client.google_fonts_url') }}" rel="stylesheet">@endif
     @vite(['resources/scss/app.scss'])
