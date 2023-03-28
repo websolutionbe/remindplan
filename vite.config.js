@@ -32,6 +32,7 @@ export default defineConfig({
             outDir: 'public',
             root: 'public',
             filename: 'sw.js',
+            publicPath: '',
             // strategies: 'injectManifest',
             // injectRegister: 'inline',
             registerType: 'autoUpdate',
