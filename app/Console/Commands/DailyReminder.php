@@ -37,7 +37,7 @@ class DailyReminder extends Command
 
         Mail::send('emails.reminder', ['tasks' => $tasks], function ($mail) {
             $mail->to('ianvleeshouwers@hotmail.com')->subject('new reminder');
-            $mail->from('reminder@habit.com', 'Reminder');
+            $mail->from('noreply@reminplan.com', 'Reminder');
         });
 
     }

@@ -31,8 +31,6 @@ export default defineConfig({
         VitePWA({
             outDir: 'public/build',
             filename: 'sw.js',
-            // strategies: 'injectManifest',
-            // injectRegister: 'inline',
             registerType: 'autoUpdate',
             devOptions: {
                 enabled: false
@@ -57,8 +55,7 @@ export default defineConfig({
             }
         }),
         svgLoader(),
-        EnvironmentPlugin(['SENTRY_LARAVEL_DSN', 'APP_ENV']),
-        EnvironmentPlugin(['INERTIAJS_SSR_PORT', 'APP_ENV']),
+        EnvironmentPlugin(['SENTRY_LARAVEL_DSN', 'APP_ENV', 'INERTIAJS_SSR_PORT']),
     ],
     resolve: {
         alias: {
@@ -66,12 +63,4 @@ export default defineConfig({
             'ziggy': path.resolve(__dirname, 'vendor/tightenco/ziggy/src/js')
         }
     },
-    // build: {
-    //     outDir: "dist",
-    //     emptyOutDir: false,
-    //     input: {
-    //         main: resolve(__dirname, 'index.html'),
-    //         nested: resolve(__dirname, 'dist/index.html')
-    //     }
-    // }
 });
