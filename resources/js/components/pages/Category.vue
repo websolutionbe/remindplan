@@ -1,20 +1,23 @@
 <template>
     <seo :meta="$page.props.meta"/>
     <Layout :title="__t('app.dashboard.title')">
-        <Link :href="route('dashboard')" class="back-button">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.721 14.765">
-                <g transform="translate(109.419) rotate(90)">
-                    <g  transform="translate(0 100.698)">
-                        <path  d="M14.529,101.427l-.484-.487a.81.81,0,0,0-1.142,0l-5.517,5.517-5.524-5.524a.81.81,0,0,0-1.142,0l-.484.484a.808.808,0,0,0,0,1.142l6.576,6.6a.826.826,0,0,0,.573.259h0a.825.825,0,0,0,.571-.259l6.57-6.582a.816.816,0,0,0,.236-.577A.808.808,0,0,0,14.529,101.427Z" transform="translate(0 -100.698)" fill="rgba(74,79,111,0.29)"/>
+        <div class="d-flex">
+            <Link :href="route('dashboard')" class="back-button">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.721 14.765">
+                    <g transform="translate(109.419) rotate(90)">
+                        <g  transform="translate(0 100.698)">
+                            <path  d="M14.529,101.427l-.484-.487a.81.81,0,0,0-1.142,0l-5.517,5.517-5.524-5.524a.81.81,0,0,0-1.142,0l-.484.484a.808.808,0,0,0,0,1.142l6.576,6.6a.826.826,0,0,0,.573.259h0a.825.825,0,0,0,.571-.259l6.57-6.582a.816.816,0,0,0,.236-.577A.808.808,0,0,0,14.529,101.427Z" transform="translate(0 -100.698)" fill="rgba(74,79,111,0.29)"/>
+                        </g>
                     </g>
-                </g>
-            </svg>
+                </svg>
 
-        </Link>
-        <div class="progress">
-            <donut-chart :color="category.color" :size="100" :percentage="category.progress.percentage" />
-            <h1>{{ category.title }}</h1>
+            </Link>
+            <div class="progress">
+                <donut-chart :color="category.color" :size="100" :percentage="category.progress.percentage" />
+                <h1>{{ category.title }}</h1>
+            </div>
         </div>
+
 
 
         <ul class="tasks" v-if="tasks">
@@ -25,7 +28,7 @@
                 :key="`task_${i}`"
                 @click="toggleTask(task.id)"
             >
-                <button class="check">
+                <button class="check squircle">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.908 24">
                         <path d="M11.835,23.944a1.577,1.577,0,0,1-2.231,0L.694,15.032a2.366,2.366,0,0,1,0-3.347l1.116-1.116a2.366,2.366,0,0,1,3.347,0l5.563,5.563L25.752,1.1a2.366,2.366,0,0,1,3.347,0l1.116,1.116a2.366,2.366,0,0,1,0,3.347Zm0,0" transform="translate(0 -0.406)" />
                     </svg>
@@ -88,9 +91,6 @@ export default {
 
 <style lang="scss">
 a.back-button {
-    position: absolute;
-    top: var(--margin-l);
-    left: var(--margin-s);
     width: 3rem;
     height: 3rem;
     background-color: transparent;

@@ -1,21 +1,21 @@
 <template>
     <nav class="navigation">
         <div class="navigation">
-            <Link :href="route('dashboard')" :class="{'active' : route().current('dashboard')}">
+            <Link class="squircle" :href="route('dashboard')" :class="{'active' : route().current('dashboard')}">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24.001" height="21.977" viewBox="0 0 24.001 21.977">
                     <path id="list-check"
                           d="M4,6a2.982,2.982,0,0,1-2.122-.879L.334,3.747A1,1,0,0,1,1.666,2.253L3.251,3.667a1,1,0,0,0,1.456.04L8.311.276A1,1,0,0,1,9.689,1.724L6.1,5.138A2.964,2.964,0,0,1,4,6ZM24,4a1,1,0,0,0-1-1H13a1,1,0,0,0,0,2H23A1,1,0,0,0,24,4ZM6.1,13.138,9.689,9.724A1,1,0,1,0,8.311,8.276l-3.6,3.431a1.023,1.023,0,0,1-1.414,0l-1.59-1.585A1,1,0,1,0,.293,11.536l1.585,1.585a3,3,0,0,0,4.226.017ZM24,12a1,1,0,0,0-1-1H13a1,1,0,0,0,0,2H23A1,1,0,0,0,24,12ZM6.1,21.138l3.585-3.414a1,1,0,1,0-1.378-1.448l-3.6,3.431a1,1,0,0,1-1.456-.04L1.666,18.253A1,1,0,1,0,.334,19.747l1.544,1.374a3,3,0,0,0,4.226.017ZM24,20a1,1,0,0,0-1-1H13a1,1,0,0,0,0,2H23A1,1,0,0,0,24,20Z"
                           transform="translate(0.001 -0.023)" fill="#4a4f6f"/>
                 </svg>
             </Link>
-            <Link :href="route('group')" :class="{'active' : route().current('group')}">
+            <Link class="squircle" :href="route('group')" :class="{'active' : route().current('group')}">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                     <path id="users_1_" data-name="users (1)"
                           d="M7.5,13A4.5,4.5,0,1,1,12,8.5,4.5,4.5,0,0,1,7.5,13Zm0-7A2.5,2.5,0,1,0,10,8.5,2.5,2.5,0,0,0,7.5,6ZM15,23v-.5a7.5,7.5,0,0,0-15,0V23a1,1,0,0,0,2,0v-.5a5.5,5.5,0,0,1,11,0V23a1,1,0,0,0,2,0Zm9-5a7,7,0,0,0-11.667-5.217,1,1,0,1,0,1.334,1.49A5,5,0,0,1,22,18a1,1,0,0,0,2,0ZM17.5,9A4.5,4.5,0,1,1,22,4.5,4.5,4.5,0,0,1,17.5,9Zm0-7A2.5,2.5,0,1,0,20,4.5,2.5,2.5,0,0,0,17.5,2Z"
                           fill="#4a4f6f"/>
                 </svg>
             </Link>
-            <Link :href="route('settings')" :class="{'active' : route().current('settings')}">
+            <Link class="squircle" :href="route('settings')" :class="{'active' : route().current('settings')}">
                 <svg xmlns="http://www.w3.org/2000/svg" width="21.594" height="24" viewBox="0 0 21.594 24">
                     <g id="settings_1_" data-name="settings (1)" transform="translate(-1.203)">
                         <path id="Path_1" data-name="Path 1"

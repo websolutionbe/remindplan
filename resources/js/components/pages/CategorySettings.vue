@@ -20,7 +20,7 @@
                 :class="category.color"
                 v-for="(category,i) in categories"
                 :key="`cat_${i}`">
-                <Link :href="route('settings.category', category.slug)">
+                <Link class="squircle" :href="route('settings.category', category.slug)">
                     {{ category.title }}
                 </Link>
 
@@ -98,12 +98,13 @@ a.back-button {
         padding: var(--margin-xs);
 
         a {
+            margin: 1rem;
             cursor: pointer;
             display: flex;
             justify-content: center;
             flex-direction: column;
             align-items: center;
-            aspect-ratio: 2/1;
+            aspect-ratio: 1/1;
             border-radius: var(--radius-panel);
             background-color: var(--color-primary-200);
             text-decoration: none;

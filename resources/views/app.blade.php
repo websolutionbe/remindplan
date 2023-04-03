@@ -18,6 +18,9 @@
     <script defer>
         Ziggy.url = '{{ env('APP_URL') }}'
     </script>
+    <script>
+        if (CSS && 'paintWorklet' in CSS) CSS.paintWorklet.addModule('https://unpkg.com/smooth-corners')
+    </script>
     @if(app()->environment('production'))
     <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-PHN6CGG"></script>
     <script>

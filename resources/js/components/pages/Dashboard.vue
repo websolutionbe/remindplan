@@ -10,7 +10,7 @@
                 v-for="(category, i) in categories"
                 :key="`cat_${i}`"
             >
-                <Link :href="route('category', category.slug)">
+                <Link class="squircle" :href="route('category', category.slug)">
                     <donut-chart :color="category.color" :percentage="category.progress.percentage" />
                     <span class="title">{{ category.title }}</span>
                 </Link>
@@ -59,12 +59,13 @@ export default {
         padding: var(--margin-xs);
 
         a {
+            margin: 1rem;
             display: flex;
             justify-content: center;
             flex-direction: column;
             align-items: center;
             aspect-ratio: 1/1;
-            border-radius: var(--radius-panel);
+            border-radius: 3rem;
             background-color: var(--color-green-200);
             text-decoration: none;
             font-size: 1.4rem;
